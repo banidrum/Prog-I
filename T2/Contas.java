@@ -10,10 +10,15 @@ public class Contas{
        double saldo;
        double valor;
 	
-       public void Depositar(){
+         public void ChecaSaldo(){
+	 System.Out.println("Seu saldo é: " + saldo);
+	 }
+	       	       	       
+	 public void Depositar(){
 	 System.Out.println("Digite quanto quer depositar: ");
 	 valor = leia.nextDouble();
-		}	
+         saldo += valor;		 
+	 }	
      
        public void Sacar(){
 
