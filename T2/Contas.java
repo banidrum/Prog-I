@@ -4,7 +4,6 @@ public class Contas{
        public static void main (String[] args){	
        Scanner leia = new Scanner(System.in);  
 
-
        int numero; 
        String dono;	
        double saldo;
