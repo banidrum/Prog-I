@@ -10,20 +10,28 @@ public class Contas{
        double valor;
 	
          public void ChecaSaldo(){
-	 System.Out.println("Seu saldo é: " + saldo);
+	 System.out.println("Seu saldo é: " + saldo);
 	 	}
 	       	       	       
 	 public void Depositar(){
-	 System.Out.println("Digite quanto quer depositar: ");
+	 System.out.println("Digite quanto quer depositar: ");
 	 valor = leia.nextDouble();
          saldo += valor;		 
 	 	}	
      
          public void Sacar(){
-	 System.Out.println("Digite quanto quer sacar: ");
+	 
+         if(saldo > 0){		 
+		 
+         System.out.println("Digite quanto quer sacar: ");
          valor = leia.nextDouble();
-         saldo -= valor;		 
-		}     	
+         saldo -= valor;
+	 	}
+         else{
+	 System.out.println("Você não possui saldo suficiente para fazer um saque!);
+	 	}
+		
+	 }     	
 
 	 public void Transfer(){
 	 
