@@ -11,19 +11,28 @@ public class Contas{
 	
          public void ChecaSaldo(){
 	 System.Out.println("Seu saldo é: " + saldo);
-	 }
+	 	}
 	       	       	       
 	 public void Depositar(){
 	 System.Out.println("Digite quanto quer depositar: ");
 	 valor = leia.nextDouble();
          saldo += valor;		 
-	 }	
+	 	}	
      
          public void Sacar(){
-
+	 System.Out.println("Digite quanto quer sacar: ");
+         valor = leia.nextDouble();
+         saldo -= valor;		 
 		}     	
 
-
+	 public void Transfer(){
+	 
+	 
+	 	}       	
+	
+	 public void ExibirDados(){
+	 
+	 	}       
 	}
 
 }
