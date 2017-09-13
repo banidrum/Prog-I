@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Contas{
-       public static void main (String[] args){	
+    
        Scanner leia = new Scanner(System.in);  
 
        int numero; 
