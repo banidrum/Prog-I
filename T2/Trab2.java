@@ -14,15 +14,20 @@ public class Trab2{
        System.out.println("6- Sair");      
        
        switch(op){
-              case 1:   
+              case 1:
+              ChecaSaldo();       
               break;
               case 2:
+              Depositar();
               break;
               case 3:
+              Sacar();       
               break;
               case 4:
+              Transfer();      
               break;
               case 5:
+              ExibirDados();                            
               break;       
                   }       
               
