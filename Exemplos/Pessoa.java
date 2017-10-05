@@ -13,7 +13,7 @@ public class Pessoa{
 		   	
 	   public String getInfos(){
 	   
-	   	  return this.idade + this.peso + this.nome;	
+	   	  return "\nIdade:" + this.idade + "\nPeso: " + this.peso + this.nome;	
 	   
 	   }   	
 }
